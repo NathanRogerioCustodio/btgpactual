@@ -1,7 +1,7 @@
 package nathan.desafiobtgpactual.dto;
 
-import java.util.List;
 import java.util.Map;
+import java.util.List;
 
 public record ApiResponse<T>(Map<String, Object> summary,
                              List<T> data,
