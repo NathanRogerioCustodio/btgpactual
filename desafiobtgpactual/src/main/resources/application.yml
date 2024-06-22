@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: btgpactualdb
+      auto-index-creation: true
+
+      rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
